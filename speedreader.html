@@ -1,0 +1,58 @@
+<!--
+   File name: speedreader.html
+   Writer: Zhangshuangli 1552664
+   Content: This file is the content of the page 'speedreader'.
+            In general, there are 4 big parts in the body, h1, reader div, smallPart div and
+            bigPart div.
+            The smallPart div includes three small parts, playControls siv,
+            speed div and size div. In the playControls div, there are two buttons, start button
+            and stop button. In the speed div, there is a select list, which will be initialized
+            in the js document. In the size part, there is a list of radio, which contrl the font
+            size in the reader div.
+            The bigPart div is an input text area.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SpeedReader</title>
+    <link href="speedreader.css" type="text/css" rel="stylesheet">
+    <script src="speedreader.js" ></script>
+</head>
+<body>
+<h1>SpeedReader</h1>
+<div id="reader"></div>
+<div class="smallPart">
+    <div class="playControls">
+        <label class="type1">Play Controls:</label>
+        <div id="btn">
+            <button id="startBtn">Start</button>
+            <button id="stopBtn">Stop</button>
+        </div>
+    </div>
+    <div class="speed">
+        <label class="type1">Speed:</label>
+        <select id="speedList">
+        </select>
+    </div>
+    <div class="size">
+        <label class="type1">Size:</label>
+        <div id="radioList">
+            <input type="radio" id="Medium" name="radio" value="Medium"/>
+            <label for="Medium">Medium</label>
+            <input type="radio" id="Big" name="radio" value="Big"/>
+            <label for="Big">Big</label>
+            <input type="radio" id="Bigger" name="radio" value="Bigger"/>
+            <label for="Bigger">Bigger</label>
+        </div>
+    </div>
+</div>
+<div class="bigPart">
+    <div class="inputText">
+        <label class="type1">Input Text</label>
+        <textarea id="textArea"></textarea>
+    </div>
+</div>
+
+</body>
+</html>

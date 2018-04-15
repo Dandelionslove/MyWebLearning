@@ -1,0 +1,63 @@
+/*
+    File name: speedreader.css
+    Writer: ZhangShuangli 1552664
+    Content: This is a style sheet for the speedreader html page.
+             There are total 59 lines in this file.
+*/
+body
+{
+    background-color: #EAF6F6;
+    font-family: Garamondin,serif;
+    font-size: 12pt;
+}
+h1
+{
+    text-align:center;
+}
+div#reader
+{
+    width:80%;
+    height:100px;
+    margin-left: auto;
+    margin-right:auto;
+    font-weight:bold;
+    font-family:monospace;
+    line-height:100px;
+    border: 2px solid #8EBEBE;
+    border-radius:5px;
+    background-color: #FFF;
+    text-align:center;
+}
+label.type1
+{
+    font-weight:bold;
+    text-align: left;
+    border-bottom: 1px solid #8EBEBE;
+    width:100%;
+    padding:2px;
+    display:inline-block;
+    margin-bottom: 2px;
+}
+.smallPart, .bigPart
+{
+    display:flex;
+    justify-content: center;
+    vertical-align: top;
+}
+.playControls, .speed, .size
+{
+    margin:20px;
+}
+textarea
+{
+    border:1px solid gray;
+    background-color: #FFF;
+    width: 100%;
+    height:100%;
+}
+button
+{
+    background-color:white;
+    border:1px solid gray;
+    width:70px;
+}
